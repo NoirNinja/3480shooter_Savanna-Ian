@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     private float verticalInput;
 
     private float horizontalScreenLimit = 9.5f;
-    private float verticalScreenLimit = 6.5f;
 
     public GameObject bulletPrefab;
 
@@ -55,11 +54,10 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x * -1, transform.position.y, 0);
         }
-        //Player leaves the screen vertically
-        if(transform.position.y > verticalScreenLimit || transform.position.y <= -verticalScreenLimit)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y * -1, 0);
-        }
+        //Clamp vertical position
+        var position = transform.position;
+        position.y = Mathf.Clamp(transform.position.y, -3.5f, .5f);
+        transform.position = position;
     }
 
 }
