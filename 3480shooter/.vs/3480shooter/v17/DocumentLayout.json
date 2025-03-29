@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|c:\\users\\ian\\desktop\\fighterplanes_savanna-ian\\3480shooter\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|c:\\users\\ian\\desktop\\fighterplanes_savanna-ian\\3480shooter\\assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|c:\\users\\ian\\desktop\\fighterplanes_savanna-ian\\3480shooter\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FFF878B-605A-2A13-6FBD-B5866F28A3CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyTwo.cs",
+              "DocumentMoniker": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\EnemyTwo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTwo.cs",
+              "ToolTip": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\EnemyTwo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyTwo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:15:49.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:12:28.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\Ian\\Desktop\\FighterPlanes_Savanna-Ian\\3480shooter\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T16:02:39.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T16:02:39.357Z"
             }
           ]
         }
