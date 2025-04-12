@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public float speed = 3f;
+    public int points = 10;
 
     private Vector3 startPosition;
     private GameManager gameManager;
@@ -31,7 +32,8 @@ public class Coin : MonoBehaviour
     {
         if (whatDidIHit.tag == "Player")
         {
-            gameManager.AddScore(10);
+            gameManager.AddScore(points);
+            gameManager.PlaySound(3);
             Destroy(gameObject);
         }
     }

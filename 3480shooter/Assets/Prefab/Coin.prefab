@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.125, y: 0.125, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 2042470710461134024}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a09e01e544b6a2e4bbdf2afd496523a3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 841cea104336c2f448626a75594f0732, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -117,10 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2042470710461134024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7edf39698264e1f4eba35278eec4c871, type: 3}
+  m_Script: {fileID: 11500000, guid: 0588df40d4faa344f9553851c4aa350a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  points: 10
 --- !u!61 &7117457990121827779
 BoxCollider2D:
   m_ObjectHideFlags: 0
