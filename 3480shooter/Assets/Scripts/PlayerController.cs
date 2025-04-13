@@ -38,6 +38,12 @@ public class PlayerController : MonoBehaviour
 
     public void LoseALife()
     {
+        PlayerShield playerShield = GetComponent<PlayerShield>();
+        if (playerShield != null && playerShield.IsShieldActive())
+        {
+            playerShield.DeactivateShield();
+            return;
+        }
         //Do I have a shield? If yes: do not lose a life, but instead deactivate the shield's visibility
         //If not: lose a life
         //lives = lives - 1;
@@ -96,6 +102,11 @@ public class PlayerController : MonoBehaviour
                     gameManager.ManagePowerupText(3);
                     break;
                 case 4:
+                    PlayerShield playerShield = GetComponent<PlayerShield>();
+                    if (playerShield != null)
+                    {
+                        playerShield.ActivateShield(5f);
+                    }
                     //Picked up shield
                     //Do I already have a shield?
                     //If yes: do nothing

@@ -359,6 +359,7 @@
 "Assets/Scripts/Glider.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerShield.cs"
 "Assets/Scripts/SelfDestroyer.cs"
 "Assets/Scripts/Swooper.cs"
 -langversion:9.0
